@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #EAD51B;
+  --font-jacques: Jacques Francois;
+}
+
+@layer base {
+  a {
+    @apply hover:text-primary transition-all
+  }
+}
