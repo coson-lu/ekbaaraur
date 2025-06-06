@@ -8,9 +8,9 @@ export default function AboutUs() {
         <div className='absolute inset-0 bg-[url(/banner.png)] bg-fixed bg-center bg-contain'></div>
         <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black'></div>
         <div className='z-20 flex flex-col gap-[3vh] items-center'>
-          <h2 className='font-sans text-2xl tracking-wider font-bold text-shadow-lg/100'>ABOUT US</h2>
+          <h2 className='font-sans text-2xl tracking-wider font-bold animate-title-top text-shadow-lg/100'>ABOUT US</h2>
           <div className="w-12 h-1 bg-primary mx-auto my-1"></div>
-          <h2 className='font-jacques text-7xl font-bold text-shadow-lg/100'>Who We Are</h2>
+          <h2 className='font-jacques text-7xl font-bold animate-title-bottom text-shadow-lg/100'>Who We Are</h2>
         </div>
       </div>
       <div className='flex flex-col py-10 mb-10 items-center gap-[3vh]'>

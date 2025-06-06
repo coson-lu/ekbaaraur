@@ -12,7 +12,7 @@ export default function Nav() {
         <Link to='/' className='nav-item hover:text-primary text-gray-300 transition-all duration-200 tracking-wide text-shadow-lg'>Home</Link>
         <Link to='/about-us' className='nav-item hover:text-primary text-gray-300 transition-all duration-200 tracking-wide text-shadow-lg'>About Us</Link>
         <Link to='/get-involved' className='nav-item hover:text-primary text-gray-300 transition-all duration-200 tracking-wide text-shadow-lg'>Get Involved</Link>
-        <Link to='/get-involved' className='nav-item hover:text-primary text-gray-300 transition-all duration-200 tracking-wide text-shadow-lg'>Gallery</Link>
+        <Link to='/gallery' className='nav-item hover:text-primary text-gray-300 transition-all duration-200 tracking-wide text-shadow-lg'>Gallery</Link>
       </div>
     </div>
   );

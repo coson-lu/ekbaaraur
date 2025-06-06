@@ -37,7 +37,7 @@ export default function Home() {
         <h3 className='text-center text-2xl font-jacques font-bold'>Ek Baar Aur's Impact to Date</h3>
         <div className='flex gap-[20vh] align-middle justify-center'>
           <div className='font-jacques gap-[2vh] flex flex-col align-middle justify-center text-center'>
-            <h1 className='text-5xl'>$16,000+</h1>
+            <h1 className='text-5xl'>$16,000</h1>
             <h1 className='text-xl'>Raised Since 2021</h1>
           </div>
           <div className='font-jacques gap-[2vh] flex flex-col align-middle justify-center text-center'>
