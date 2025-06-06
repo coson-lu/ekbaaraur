@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <div className=''>
       <div className='relative w-full h-[75vh] mb-20 shadow-xl overflow-hidden flex align-middle items-center justify-center'>
-        <div className='absolute inset-0 bg-[url(/banner.png)] bg-fixed bg-center bg-contain'></div>
+        <div className='absolute inset-0 bg-[url(/banner.png)] bg-fixed bg-center bg-cover'></div>
         <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black'></div>
         <div className='z-20 flex flex-col gap-[3vh] items-center'>
           <h2 className='font-sans text-2xl tracking-wider font-bold animate-title-top text-shadow-lg/100'>ABOUT US</h2>

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="">
       <div class="relative w-full h-[75vh] mb-20 shadow-xl overflow-hidden">
-        <div class="absolute inset-0 bg-[url(/banner.png)] bg-fixed bg-center bg-contain"></div>
+        <div class="absolute inset-0 bg-[url(/banner.png)] bg-fixed bg-center bg-cover"></div>
         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
       </div>
       <div className='flex justify-center gap-[4.5vw] mb-17.5'>
