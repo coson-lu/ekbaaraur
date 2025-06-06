@@ -21,7 +21,7 @@ export default function Home() {
               About Us
               <MdOutlineKeyboardArrowRight className='ml-1 transform transition-transform duration-300 group-hover:translate-x-1' />
             </Link>
-            <h4 className='text-base md:text-lg tracking-wide'>In turpis, condimentum risus luctus imperdiet nulla dui, tempor dui. Et sagittis dui eget ut aliquet diam, lacus nunc luctus. Etiam arcu risus amet vulputate sed dictum ac leo molestie. </h4>
+            <h4 className='text-base md:text-lg tracking-wide'>We are a student-led nonprofit turning donated clothes and toys into affordable goods and critical support for refugees and global charities.</h4>
           </div>
           <div className='my-8 md:my-12 h-0.5 border-t-0 border-[0.5px] border-gray-400 bg-neutral-700'></div>
           <div className='flex flex-col gap-2.5'>
@@ -29,7 +29,7 @@ export default function Home() {
               Get Involved
               <MdOutlineKeyboardArrowRight className='ml-1 transform transition-transform duration-300 group-hover:translate-x-1' />
             </Link>
-            <h4 className='text-base md:text-lg tracking-wide'>In turpis, condimentum risus luctus imperdiet nulla dui, tempor dui. Et sagittis dui eget ut aliquet diam, lacus nunc luctus. Etiam arcu risus amet vulputate sed dictum ac leo molestie. </h4>
+            <h4 className='text-base md:text-lg tracking-wide'>Make an impact by donating, volunteering, attending our events, or spreading the word on social media — every action helps drive real change.</h4>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ export default function Home() {
         <h3 className='text-center text-xl md:text-2xl font-jacques font-bold'>Ek Baar Aur's Impact to Date</h3>
         <div className='flex flex-col md:flex-row gap-8 md:gap-[20vh] align-middle justify-center'>
           <div className='font-jacques gap-[2vh] flex flex-col align-middle justify-center text-center'>
-            <h1 className='text-4xl md:text-5xl'>$16,000</h1>
+            <h1 className='text-4xl md:text-5xl'>$16,000+</h1>
             <h1 className='text-lg md:text-xl'>Raised Since 2021</h1>
           </div>
           <div className='font-jacques gap-[2vh] flex flex-col align-middle justify-center text-center'>

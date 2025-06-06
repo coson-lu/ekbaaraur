@@ -23,24 +23,32 @@ export default function GetInvolved() {
       <WaySection
         imageSrc={'/stevejobless.webp'}
         title={'Donate'}
-        description={'Imperdiet tristique velit vulputate, ornare, platea fringilla venenatis consequat pulvinar. Finibus ac est leo porta vitae condimentum morbi elementum nullam. Sed id, enim nisl a ipsum nulla mi eget nisl. semper nascetur pellentesque rhoncus.'}
+        description={'Have clothes or toys you no longer use? Give them a second life by donating to Ek Baar Aur. We accept lightly-used items that we clean, sort, and sell at reduced prices. Every donation reduces waste and funds vital support for refugees and global aid organizations. Your unused items can become someone else’s essentials.'}
       />
       <WaySection
         imageSrc={'/stevejobless.webp'}
         title={'Attend an Event'}
-        description={'Imperdiet tristique velit vulputate, ornare, platea fringilla venenatis consequat pulvinar. Finibus ac est leo porta vitae condimentum morbi elementum nullam. Sed id, enim nisl a ipsum nulla mi eget nisl. semper nascetur pellentesque rhoncus.'}
+        description={'Support our mission by showing up. At our pop-up events, you can shop affordable, donated fashion while directly contributing to meaningful change. All proceeds go to vetted charities and aid efforts. Attending is more than just shopping—it’s taking part in a cycle of impact.'}
         rev={true}
       />
       <WaySection
         imageSrc={'/stevejobless.webp'}
         title={'Volunteer'}
-        description={'Imperdiet tristique velit vulputate, ornare, platea fringilla venenatis consequat pulvinar. Finibus ac est leo porta vitae condimentum morbi elementum nullam. Sed id, enim nisl a ipsum nulla mi eget nisl. semper nascetur pellentesque rhoncus.'}
+        description={'Behind every item we sell is the work of dedicated volunteers. Help us sort, clean, organize, or run events. Whether you give a few hours or take on a larger role, your time directly powers our ability to operate, grow, and reach more communities in need.'}
         rev={false}
       />
       <WaySection
         imageSrc={'/stevejobless.webp'}
         title={'Follow Us'}
-        description={'Imperdiet tristique velit vulputate, ornare, platea fringilla venenatis consequat pulvinar. Finibus ac est leo porta vitae condimentum morbi elementum nullam. Sed id, enim nisl a ipsum nulla mi eget nisl. semper nascetur pellentesque rhoncus.'}
+        description={
+          <>
+            Awareness drives action. By following us on{" "}
+            <a href="https://instagram.com" className="text-primary" target="_blank">Instagram</a>,{" "}
+            <a href="https://youtube.com" className="text-primary" target="_blank">YouTube</a>, and{" "}
+            <a href="https://facebook.com" className="text-primary" target="_blank">Facebook</a>,
+            you help amplify our mission. Stay informed about upcoming events, learn more about our impact, and help spread the word to others who want to get involved. Your voice online strengthens our reach.
+          </>
+        }
         rev={true}
       />
     </div>
