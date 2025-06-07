@@ -53,9 +53,9 @@ export default function AboutUs() {
             title='Director of Operations & Photography'
           />
           <ProfileCard
-            imageSrc={'/shray.png'}
-            name='Shray Bagga'
-            title='Founder'
+            imageSrc={'/mehtaab.png'}
+            name='Mehtaab Bal'
+            title='Nonce'
           />
           <ProfileCard
             imageSrc={'/stevejobless.webp'}
