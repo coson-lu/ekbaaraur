@@ -76,23 +76,6 @@ export default function AboutUs() {
               title='Founder'
             />
           </div>
-          <div className='flex flex-col sm:flex-row gap-6 md:gap-[5vh] justify-center items-center flex-wrap'>
-            <ProfileCard
-              imageSrc={'/stevejobless.webp'}
-              name='Steve Jobless'
-              title='Founder'
-            />
-            <ProfileCard
-              imageSrc={'/stevejobless.webp'}
-              name='Steve Jobless'
-              title='Founder'
-            />
-            <ProfileCard
-              imageSrc={'/stevejobless.webp'}
-              name='Steve Jobless'
-              title='Founder'
-            />
-          </div>
         </div>
       </div>
     </div>
