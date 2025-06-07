@@ -5,7 +5,7 @@ export default function GetInvolved() {
   return (
     <div className=''>
       <div className='relative w-full h-[50vh] md:h-[70vh] mb-20 shadow-xl overflow-hidden flex align-middle items-center justify-center'>
-        <div className='absolute inset-0 bg-[url(/banner.png)] brightness-50 bg-center bg-cover' style={{ backgroundPosition: 'center top' }}></div>
+        <div className='absolute inset-0 bg-[url(/banner.png)] brightness-50 bg-fixed bg-center bg-cover' style={{ backgroundPosition: 'center top' }}></div>
         <div className='absolute inset-[-1px] bg-gradient-to-b from-transparent via-transparent to-gray-950'></div>
         <div className='z-20 flex flex-col gap-[3vh] items-center px-4'>
           <h2 className='font-sans text-xl md:text-2xl tracking-wider font-bold animate-title-top text-shadow-lg/100'>GET INVOLVED</h2>
