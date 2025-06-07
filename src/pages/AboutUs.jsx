@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <div className=''>
       <div className='relative w-full h-[50vh] md:h-[70vh] mb-20 shadow-xl overflow-hidden flex align-middle items-center justify-center'>
-        <div className='absolute inset-0 bg-[url(/banner.png)] bg-center bg-cover' style={{ backgroundPosition: 'center top' }}></div>
+        <div className='absolute inset-0 bg-[url(/banner.png)] brightness-50 bg-center bg-cover' style={{ backgroundPosition: 'center top' }}></div>
         <div className='absolute inset-[-1px] bg-gradient-to-b from-transparent via-transparent to-gray-950'></div>
         <div className='z-20 flex flex-col gap-[3vh] items-center px-4'>
           <h2 className='font-sans text-xl md:text-2xl tracking-wider font-bold animate-title-top text-shadow-lg/100'>ABOUT US</h2>
@@ -41,41 +41,37 @@ export default function AboutUs() {
       </div>
       <div className='flex flex-col mb-10 items-center gap-[3vh] px-4'>
         <h2 className='font-jacques mb-[2vh] text-2xl md:text-4xl font-bold w-full md:w-[60%] text-center leading-tight md:leading-11'>The Executive Team</h2>
-        <div className='flex gap-6 md:gap-[5vh] justify-center items-baseline flex-col'>
-          <div className='flex flex-col sm:flex-row gap-6 md:gap-[5vh] justify-center items-center flex-wrap'>
-            <ProfileCard
-              imageSrc={'/stevejobless.webp'}
-              name='Steve Jobless'
-              title='Founder'
-            />
-            <ProfileCard
-              imageSrc={'/stevejobless.webp'}
-              name='Steve Jobless'
-              title='Founder'
-            />
-            <ProfileCard
-              imageSrc={'/stevejobless.webp'}
-              name='Steve Jobless'
-              title='Founder'
-            />
-          </div>
-          <div className='flex flex-col sm:flex-row gap-6 md:gap-[5vh] justify-center items-center flex-wrap'>
-            <ProfileCard
-              imageSrc={'/stevejobless.webp'}
-              name='Steve Jobless'
-              title='Founder'
-            />
-            <ProfileCard
-              imageSrc={'/stevejobless.webp'}
-              name='Steve Jobless'
-              title='Founder'
-            />
-            <ProfileCard
-              imageSrc={'/stevejobless.webp'}
-              name='Steve Jobless'
-              title='Founder'
-            />
-          </div>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-[5vh] justify-items-center'>
+          <ProfileCard
+            imageSrc={'/shray.png'}
+            name='Shray Bagga'
+            title='Director of Programs & Outreach'
+          />
+          <ProfileCard
+            imageSrc={'/aarna.png'}
+            name='Aarna Bahuguna'
+            title='Director of Operations & Photography'
+          />
+          <ProfileCard
+            imageSrc={'/shray.png'}
+            name='Shray Bagga'
+            title='Founder'
+          />
+          <ProfileCard
+            imageSrc={'/stevejobless.webp'}
+            name='Steve Jobless'
+            title='Founder'
+          />
+          <ProfileCard
+            imageSrc={'/stevejobless.webp'}
+            name='Steve Jobless'
+            title='Founder'
+          />
+          <ProfileCard
+            imageSrc={'/stevejobless.webp'}
+            name='Steve Jobless'
+            title='Founder'
+          />
         </div>
       </div>
     </div>

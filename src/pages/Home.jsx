@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="">
       <div className='relative w-full h-[50vh] md:h-[70vh] mb-20 shadow-xl overflow-hidden flex align-middle items-center justify-center'>
-        <div className='absolute inset-0 bg-[url(/banner.png)] bg-center bg-cover' style={{ backgroundPosition: 'center top' }}></div>
+        <div className='absolute inset-0 bg-[url(/banner.png)] brightness-50 bg-center bg-cover' style={{ backgroundPosition: 'center top' }}></div>
         <div className='absolute inset-[-1px] bg-gradient-to-b from-transparent via-transparent to-gray-950'></div>
       </div>
       <div className='flex flex-col md:flex-row justify-center gap-6 md:gap-[4.5vw] mb-17.5 px-4 md:px-0'>

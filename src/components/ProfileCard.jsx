@@ -7,7 +7,7 @@ function ProfileCard({ imageSrc, name, title }) {
         <img
           src={imageSrc}
           alt={name}
-          className="w-full block h-full object-cover grayscale transition-transform duration-250 ease-in-out group-hover:scale-108"
+          className="w-full block h-full object-cover object-top transition-transform duration-250 ease-in-out group-hover:scale-108"
         />
       </div>
       <div className="flex flex-col gap-[0.5vh] py-[2.5vh] bg-stone-700">
