@@ -6,7 +6,6 @@ export default function GetInvolved() {
     <div className=''>
       <div className='relative w-full h-[50vh] md:h-[70vh] mb-20 shadow-xl overflow-hidden flex align-middle items-center justify-center'>
         <div className='absolute inset-0 bg-[url(/banner.png)] bg-center bg-cover' style={{ backgroundPosition: 'center top' }}></div>
-
         <div className='absolute inset-[-1px] bg-gradient-to-b from-transparent via-transparent to-gray-950'></div>
         <div className='z-20 flex flex-col gap-[3vh] items-center px-4'>
           <h2 className='font-sans text-xl md:text-2xl tracking-wider font-bold animate-title-top text-shadow-lg/100'>GET INVOLVED</h2>
@@ -43,9 +42,10 @@ export default function GetInvolved() {
         description={
           <>
             Awareness drives action. By following us on{" "}
-            <a href="https://instagram.com" className="text-primary" target="_blank">Instagram</a>,{" "}
-            <a href="https://youtube.com" className="text-primary" target="_blank">YouTube</a>, and{" "}
-            <a href="https://facebook.com" className="text-primary" target="_blank">Facebook</a>,
+            <a href="https://www.youtube.com/channel/UC3tXJ2VqxCipwQFVbdSiYrA" className="text-primary" target="_blank">Instagram</a>,{" "}
+            <a href="https://www.instagram.com/ekbaaraur21/" className="text-primary" target="_blank">YouTube</a>,{" "}
+            <a href="https://www.facebook.com/people/Ek-Baar-Aur/pfbid02mdX3fkUXwhCoURbScDEaAp3QvnFxJ8d3atAFdFaApJeDPhZQJiLn49cqiMQqVhkUl/" className="text-primary" target="_blank">Facebook</a>, and{" "}
+            <a href="https://www.tiktok.com/@ek.baar.aur?_t=ZP-8wzsC6EwiPG&_r=1" className="text-primary" target="_blank">Tik Tok</a>,
             you help amplify our mission. Stay informed about upcoming events, learn more about our impact, and help spread the word to others who want to get involved. Your voice online strengthens our reach.
           </>
         }

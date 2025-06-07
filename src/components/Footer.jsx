@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaYoutube, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaYoutube, FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 export default function Footer() {
@@ -39,6 +39,13 @@ export default function Footer() {
           aria-label="Email"
         >
           <SiGmail />
+        </a>
+        <a
+          href='https://www.tiktok.com/@ek.baar.aur?_t=ZP-8wzsC6EwiPG&_r=1'
+          className='text-[24px] md:text-[20px] hover:text-cyan-300 transition-colors p-2'
+          aria-label="Tik Tok"
+        >
+          <FaTiktok />
         </a>
       </div>
     </div>
