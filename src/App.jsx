@@ -9,11 +9,13 @@ import GetInvolved from './pages/GetInvolved.jsx'
 import Nav from './components/Nav.jsx'
 import Footer from './components/Footer.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx';
+import IncompleteSiteBanner from './components/IncompleteSiteBanner.jsx';
 
 
 function App() {
   return (
     <div className='bg-gray-950 text-gray-50'>
+      <IncompleteSiteBanner />
       <Nav />
       <ScrollToTop />
       <Routes>
