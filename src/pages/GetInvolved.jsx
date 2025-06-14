@@ -5,7 +5,7 @@ export default function GetInvolved() {
   return (
     <div className=''>
       <div className='relative w-full h-[50vh] md:h-[70vh] mb-20 shadow-xl overflow-hidden flex align-middle items-center justify-center'>
-        <div className='absolute inset-0 bg-[url(/banner.png)] brightness-50 bg-fixed bg-center bg-cover' style={{ backgroundPosition: 'center top' }}></div>
+        <div className='absolute inset-0 bg-[url(/banner.png)] brightness-40 bg-attachment-scroll bg-[calc(50%+2vw)_calc(50%-2vh)] bg-cover'></div>
         <div className='absolute inset-[-1px] bg-gradient-to-b from-transparent via-transparent to-gray-950'></div>
         <div className='z-20 flex flex-col gap-[3vh] items-center px-4'>
           <h2 className='font-sans text-xl md:text-2xl tracking-wider font-bold animate-title-top text-shadow-lg/100'>GET INVOLVED</h2>
@@ -20,24 +20,24 @@ export default function GetInvolved() {
       <h2 className='font-jacques text-3xl md:text-5xl font-bold w-full text-center mb-[2.5vh] px-4'>Ways to Get Involved</h2>
       <p className='text-lg md:text-[1.375rem] leading-relaxed md:leading-[1.875rem] w-full text-center mb-[7vh] px-4'>Show your support by taking action today.</p>
       <WaySection
-        imageSrc={'/stevejobless.webp'}
+        imageSrc={'/donate.png'}
         title={'Donate'}
         description={'Have clothes or toys you no longer use? Give them a second life by donating to Ek Baar Aur. We accept lightly-used items that we clean, sort, and sell at reduced prices. Every donation reduces waste and funds vital support for refugees and global aid organizations. Your unused items can become someone else’s essentials.'}
       />
       <WaySection
-        imageSrc={'/stevejobless.webp'}
+        imageSrc={'/attend.png'}
         title={'Attend an Event'}
         description={'Support our mission by showing up. At our pop-up events, you can shop affordable, donated fashion while directly contributing to meaningful change. All proceeds go to vetted charities and aid efforts. Attending is more than just shopping—it’s taking part in a cycle of impact.'}
         rev={true}
       />
       <WaySection
-        imageSrc={'/stevejobless.webp'}
+        imageSrc={'/volunteer.png'}
         title={'Volunteer'}
         description={'Behind every item we sell is the work of dedicated volunteers. Help us sort, clean, organize, or run events. Whether you give a few hours or take on a larger role, your time directly powers our ability to operate, grow, and reach more communities in need.'}
         rev={false}
       />
       <WaySection
-        imageSrc={'/stevejobless.webp'}
+        imageSrc={'/follow.jpg'}
         title={'Follow Us'}
         description={
           <>

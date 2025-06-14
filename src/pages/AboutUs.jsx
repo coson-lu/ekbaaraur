@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <div className=''>
       <div className='relative w-full h-[50vh] md:h-[70vh] mb-20 shadow-xl overflow-hidden flex align-middle items-center justify-center'>
-        <div className='absolute inset-0 bg-[url(/banner.png)] brightness-50 bg-fixed bg-center bg-cover' style={{ backgroundPosition: 'center top' }}></div>
+        <div className='absolute inset-0 bg-[url(/banner.png)] brightness-40 bg-attachment-scroll bg-[calc(50%+2vw)_calc(50%-2vh)] bg-cover'></div>
         <div className='absolute inset-[-1px] bg-gradient-to-b from-transparent via-transparent to-gray-950'></div>
         <div className='z-20 flex flex-col gap-[3vh] items-center px-4'>
           <h2 className='font-sans text-xl md:text-2xl tracking-wider font-bold animate-title-top text-shadow-lg/100'>ABOUT US</h2>
@@ -43,6 +43,21 @@ export default function AboutUs() {
         <h2 className='font-jacques mb-[2vh] text-2xl md:text-4xl font-bold w-full md:w-[60%] text-center leading-tight md:leading-11'>The Executive Team</h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-[5vh] justify-items-center'>
           <ProfileCard
+            imageSrc={'/pavni.png'}
+            name='Pavni Jaidka Bagga'
+            title='Chief Executive Officer'
+          />
+          <ProfileCard
+            imageSrc={'/ambika.png'}
+            name='Ambika Agarwal'
+            title='Chief Operating Officer'
+          />
+          <ProfileCard
+            imageSrc={'/baljit.png'}
+            name='Baljit Singh Bal'
+            title='Chief Financial Officer'
+          />
+          <ProfileCard
             imageSrc={'/shray.png'}
             name='Shray Bagga'
             title='Director of Programs & Outreach'
@@ -56,21 +71,6 @@ export default function AboutUs() {
             imageSrc={'/mehtaab.png'}
             name='Mehtaab Bal'
             title='Director of Fundraising & Videography'
-          />
-          <ProfileCard
-            imageSrc={'/stevejobless.webp'}
-            name='Steve Jobless'
-            title='Founder'
-          />
-          <ProfileCard
-            imageSrc={'/stevejobless.webp'}
-            name='Steve Jobless'
-            title='Founder'
-          />
-          <ProfileCard
-            imageSrc={'/stevejobless.webp'}
-            name='Steve Jobless'
-            title='Founder'
           />
         </div>
       </div>
