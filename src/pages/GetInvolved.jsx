@@ -42,8 +42,8 @@ export default function GetInvolved() {
         description={
           <>
             Awareness drives action. By following us on{" "}
-            <a href="https://www.youtube.com/channel/UC3tXJ2VqxCipwQFVbdSiYrA" className="text-primary" target="_blank">Instagram</a>,{" "}
-            <a href="https://www.instagram.com/ekbaaraur21/" className="text-primary" target="_blank">YouTube</a>,{" "}
+            <a href="https://www.youtube.com/channel/UC3tXJ2VqxCipwQFVbdSiYrA" className="text-primary" target="_blank">Youtube</a>,{" "}
+            <a href="https://www.instagram.com/ekbaaraur21/" className="text-primary" target="_blank">Instagram</a>,{" "}
             <a href="https://www.facebook.com/people/Ek-Baar-Aur/pfbid02mdX3fkUXwhCoURbScDEaAp3QvnFxJ8d3atAFdFaApJeDPhZQJiLn49cqiMQqVhkUl/" className="text-primary" target="_blank">Facebook</a>, and{" "}
             <a href="https://www.tiktok.com/@ek.baar.aur?_t=ZP-8wzsC6EwiPG&_r=1" className="text-primary" target="_blank">Tik Tok</a>,
             you help amplify our mission. Stay informed about upcoming events, learn more about our impact, and help spread the word to others who want to get involved. Your voice online strengthens our reach.
