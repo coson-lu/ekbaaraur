@@ -69,7 +69,7 @@ export default function AboutUs() {
           />
           <ProfileCard
             imageSrc={'/mehtaab.png'}
-            name='Mehtaab Bal'
+            name='Mehtaab Singh Bal'
             title='Director of Fundraising & Videography'
           />
         </div>
