@@ -41,8 +41,8 @@ export default function Home() {
             <h1 className='text-lg md:text-xl'>Raised Since 2021</h1>
           </div>
           <div className='font-jacques gap-[2vh] flex flex-col align-middle justify-center text-center'>
-            <h1 className='text-4xl md:text-5xl'>1000+</h1>
-            <h1 className='text-lg md:text-xl'>Poeple Reached</h1>
+            <h1 className='text-4xl md:text-5xl'>5000+</h1>
+            <h1 className='text-lg md:text-xl'>People Reached</h1>
           </div>
           <div className='font-jacques gap-[2vh] flex flex-col align-middle justify-center text-center'>
             <h1 className='text-4xl md:text-5xl'>15</h1>
